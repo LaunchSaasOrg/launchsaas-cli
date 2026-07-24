@@ -1,0 +1,32 @@
+{
+  "name": "launchsaas-cli",
+  "version": "0.1.0",
+  "description": "One-command setup for LaunchSaaS — bootstrap your vibe coding environment",
+  "type": "module",
+  "bin": {
+    "launchsaas-cli": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "pnpm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "launchsaas",
+    "cli",
+    "setup",
+    "vibe-coding"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.2"
+  }
+}
