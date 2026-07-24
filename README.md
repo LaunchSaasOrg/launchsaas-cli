@@ -10,7 +10,13 @@
 
 One-command setup for [LaunchSaaS](https://launchsaas.org) — bootstrap your entire vibe coding environment from scratch.
 
-## What it does
+## What is LaunchSaaS?
+
+[LaunchSaaS](https://launchsaas.org) is a production-ready SaaS boilerplate built on Next.js. It ships with everything a SaaS product needs — authentication, payments, admin dashboard, transactional email, blog, docs, and internationalization — so you can skip the boilerplate and focus on building your unique product with AI.
+
+Think of it as a complete, proven SaaS business you pick up and make your own with vibe coding.
+
+## What this CLI does
 
 Installs and configures everything you need to start building with LaunchSaaS:
 
@@ -102,7 +108,13 @@ MIT
 
 一条命令，完成 [LaunchSaaS](https://launchsaas.org) 的全套环境初始化，从零开始，直接开始 vibe coding。
 
-## 它会做什么
+## LaunchSaaS 是什么？
+
+[LaunchSaaS](https://launchsaas.org) 是一个生产级 SaaS 项目模板，基于 Next.js 构建。它内置了 SaaS 产品所需的一切——用户认证、支付、管理后台、邮件、博客、文档和多语言支持——让你跳过所有基础建设，直接用 AI 打造自己的产品核心功能。
+
+你可以把它理解成：一个完整的、经过验证的 SaaS 商业模板，拿来就能用 vibe coding 改造成你自己的产品。
+
+## 这个 CLI 会做什么
 
 自动安装并配置你需要的一切：
 
